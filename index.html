@@ -610,6 +610,17 @@ footer{background:#041a13;border-top:0}
 @media(max-width:640px){.brand{font-size:15px}.brand small{font-size:11px}.nav-r{gap:12px}.nav-cta{padding:7px 10px;font-size:13px}.dd-btn span{font-size:13px}
  .stats .grid{grid-template-columns:1fr!important}.stat{border-right:0!important;border-bottom:1px solid var(--line);padding:22px 4px!important}.stat b{font-size:36px!important}}
 @media(max-width:400px){.dd-btn span{display:none}.dd-btn::before{content:"Dữ liệu";font-size:13px}}
+
+/* chiều sâu nhẹ */
+#ve-toi,#du-lieu-nganh,#goc-nhin{background:linear-gradient(180deg,#06231A 0%,#041C14 100%)!important}
+.alt{background:linear-gradient(180deg,#0A2C21 0%,#06231A 100%)!important}
+nav{box-shadow:none!important}
+nav::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,#006A44 0%,#7FE0B5 45%,#D62D20 100%);pointer-events:none}
+.contact{position:relative;border-top:0!important}
+.contact::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,#D62D20 0%,#7FE0B5 55%,#006A44 100%)}
+#thi-truong{position:relative;overflow:hidden}
+#thi-truong::before{content:"";position:absolute;left:50%;top:38%;width:min(1100px,120vw);height:720px;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(127,224,181,.11),transparent);pointer-events:none;z-index:0}
+#thi-truong>.wrap{position:relative;z-index:1}
 </style>
 <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 </head>
